@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <title></title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+      <link rel="stylesheet" href="index.css" /> 
+   </head>
+   <script>
+    $(document).ready(function(){
+      $(".navigation .navbar .logo-toggle-container .toggle-box").click(function(){
+        $(".navigation .menu").stop().slideToggle();
+
+    var popup = document.getElementById("myPopup");
+    popup.style.display='block';
+
+      });
+    });
+
+    function disabledpopup(){
+      var popup = document.getElementsByClassName("myPopup");
+      popup[0].style.display='none';
+    }
+</script>
+   <body>
+    <nav class="navbar">
+        <a class="brand" href="#"><img src="image/log1.PNG" height="50px"/></a>
+        <ul>
+          <li>
+            <a href="#">Creativity & Design
+                <i class="fa fa-caret-down"></i>
+            </a>
+            
+          </li>
+          <li>
+            <a class="active" href="#">PDF & E-signature
+                <i class="fa fa-caret-down"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">Marketing & E-commerce
+              <i class="fa fa-caret-down"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">Help & Support
+              <i class="fa fa-caret-down"></i>
+            </a>
+          </li>
+        </ul>
+        
+      </nav>
+          <div class="backImage">
+             <div class="content-1">CREATIVE CLOUD</div>
+               <div class="section"><br>
+                   Creative journey start here.</div>
+                       <div class="lable"><br>
+                      Get your inspiration flowing with our video, design, photo and UI/UX apps.
+                          </div>
+          
+            <div class="dropbtn"> 
+              <button class="rounded-button" ><b>Start free trial</b></button>
+            <span class="mid">Learn more</span>
+          </div>
+         </div>
+         <ul>
+           <li>
+          <a class="head" href="#">Creative Cloud for:</span>
+          </a>
+           </li>
+            <li>
+              <a href="#">Everyone 
+              </a>
+            </li>
+            <li>
+              <a class="active" href="#">Students
+              </a>
+            </li>
+            <li>
+              <a href="#">Photographers
+                
+              </a>
+            </li>
+            <li>
+              <a href="#">Business
+              </a>
+            </li>
+            <li>
+              <a href="#">Adobe stock
+              </a>
+            </li>
+            <li>
+              <a href="#">Special offers
+              </a>
+            </li>
+         </ul>
+          <div class="rock">
+            <img src='https://slp-statics.astockcdn.net/static_assets/staging/22spring/photos/curated-collections/card-3.jpg?width=580&format=webp'>
+          <div class="gfg">Meet the new photoshop.</div>
+          <div class="first">Faster, smarter and easier than ever.</div><br>
+        <div class="footer">Learn more</div>
+          <img src='image/image1.PNG'>
+          <img src='image/image2.PNG'>  
+        </div>
+        <div class="container1">
+        <img src='image/image5.png'>
+        <div class="text">ADOBE SUMMIT | 17 MARCH</div>
+        <div class="text1">Take time to Summit.</div>
+        <div class="text2">Learn, be inspired and start making the digital economy personal.</div>
+        <button class="rounded-button1" ><b>Watch now</b></button>
+      </div>
+      <div class="myPopup" style="background-color:whitesmoke; width: 50%; z-index: 4;" >
+        <img class="close" src="image/close.PNG" style="float: right; height: 10%;" onclick="disabledpopup()"/>
+        <img src="image/glob.PNG" style="height: 40Px;width: 40Px; padding-left: 45%;padding-top: 9%; " class="centre"/>
+        <p style="padding-top: 30px; padding-left: 2%;">Are you visiting Adobe.com from outside the US? Visit your regional site for more relevant pricing, promotions and events.</p>
+        <p style="text-align:center"><a href="#">Continue to India</a></p>
+        <p style="text-align:center"><a href="#">Continue to United state</a></p>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,294 @@
+/* We don't want any links to be underlined. Let's remove that globally */
+a {
+    text-decoration: none;
+  }
+  
+  .navbar {
+    height:8%;
+    display: flex;
+    /* let's align the items so everything is nice and centered */
+    align-items: center;
+  }
+  
+  /* We want all links in the navbar to be #e7e7e7 */
+  .navbar a {
+    color: black;
+    font-weight: bold;
+    font-size: small;
+  }
+
+
+  .navbar ul {
+    /* Let's reset the margin and padding of the list so it's is flush. */
+     margin: 0;
+     padding: 0;
+     /* Let's remove the bullet points */
+     list-style-type: none;
+     /* display the list flex and align the items centered */
+     display: flex;
+     align-items:center;
+   }
+
+
+   .navbar .brand {
+    display: block;
+    color: #e7e7e7;
+   /* Remove padding from top/bottom and add 24px padding right/left */
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  
+  .navbar ul li a {
+    color: black;
+    padding: 24px;
+    /*Let's make the anchor display block.
+       This will ensure when we hover, focus, or is active we get the full width and height 
+        of the container.
+    */
+    display: block;
+  }
+  
+  
+ .backImage{
+  background: transparent url('image/Adobe.png') 0% 0% no-repeat padding-box;
+  background-size: 100% 100%;
+  height:500px;
+
+ }
+ .content-1{
+  font-size: 16px;
+  font-weight:bolder;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+   padding-top: 50px;
+   width: 80%;
+   height: auto;
+   margin-left: 160px;
+ }
+
+ .section{
+   font-size: 35px;
+  width: 90%;
+  height: auto;
+  margin-left: 10%;
+   font-style: normal;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+   font-weight: bolder;
+ }
+
+.lable{
+font-size: medium;
+margin-left: 10%;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+.rounded-button{
+  padding:0.6em 1em;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(109, 109, 245);
+  font-size: 0.8em;
+  border: 0;
+  cursor: pointer;
+  margin:1em;
+  margin-left: 9%;
+  }
+
+  .mid{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-weight: bolder;
+  }
+
+  .footer{
+    list-style-type: none;
+
+ 
+  }
+
+   ul{
+      /* Let's reset the margin and padding of the list so it's is flush. */
+       margin: 0;
+       padding: 0;
+       /* Let's remove the bullet points */
+       list-style-type: none;
+       /* display the list flex and align the items centered */
+       display: flex;
+       align-items:center;
+  
+  }
+
+  ul li a {
+    font-size: 14px;
+    color: blue;
+    padding: 24px;
+    /*Let's make the anchor display block.
+       This will ensure when we hover, focus, or is active we get the full width and height 
+        of the container.
+    */
+    display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    border-style: grey;
+  }
+  
+  .head{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    margin-left: 180px;
+  
+  }
+
+  .rock img{
+   /* float: left;*/
+    width: 100%;
+    height: auto;
+    margin: 20px 9px;
+  }
+  
+.rock{
+   float: left;
+   position: relative;
+   text-align: left;
+    width: 32.5%;
+    height: auto;
+     position: relative;
+     color: black;
+     display: flex;
+  }
+  
+  .rock div{
+     /*border: 1px #ccc solid;*/
+    padding: 10px;
+
+  }
+
+
+
+
+  .gfg{
+    float: left;
+    font-size: 150%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    position: absolute;
+    top: 8px;
+    left: 16px; 
+    font-weight: bolder;
+    color:white;
+    margin-top: 29px;
+  }
+
+  .first{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    font-weight: lighter;
+    color:white;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  .footer{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    position: absolute;
+    top: 49px;
+    left: 14px;
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 2px;
+    margin-top: 56px;
+    color: white;
+  }/*https://t4.ftcdn.net/jpg/03/73/58/69/240_F_373586987_Cbsttxh4guQm9RJDgDFa1kw8L2XiF9EI.jpg and 
+  https://t3.ftcdn.net/jpg/03/39/63/30/240_F_339633027_CujY6AVkq6muasXtzwYdGKikQxHXmCep.jpg
+  https://t3.ftcdn.net/jpg/04/90/79/98/240_F_490799846_IMWer1IufFgbM0fKevlexLHz7guExk2W.jpg
+  https://t3.ftcdn.net/jpg/04/91/04/72/240_F_491047246_Bt3ZFh9IzPcDiSogTqNTx0iz2cetfTXK.jpg
+  and https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wundermanthompson.com%2Fnews%2Fadobe-summit-2022-top-picks&psig=AOvVaw3uAIX0K9l__9E3-d0pIdA-&ust=1647932574891000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLidg7LR1vYCFQAAAAAdAAAAABAD*/
+  
+  .container1 div {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    color:white;
+    margin-top: 80%;
+  }
+  
+  .container1 img{
+    width: 100%;
+    height: auto;
+  }
+
+  .text{
+    font-weight: bold;
+    font-size:100%;
+    position: absolute;
+    top:8px;
+    left:16px;
+  }
+
+  .text1{
+    font-weight: bold;
+    font: size 40px;
+    position: absolute;
+    top:9px;
+    left:22px;
+    padding-top: 50px;
+  }
+
+  .text2{
+    font-size:19px;
+    position: absolute;
+    top: 80px;
+    left: 24px;
+    padding-top: 59px;
+    font-weight: lighter;
+  }
+
+  .rounded-button1{
+    top:90px;
+    left:0%;
+    position :absolute;
+    padding:0.6em 1em;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(88, 83, 247);
+    font-size: 0.8em;
+    border: 0;
+    cursor: pointer;
+    margin:1em;
+    margin-top: 87%;
+    }
+
+    /*.rounded-button{
+      padding:0.6em 2em;
+      border-radius: 8px;
+      color: #150734;
+      background-color: skyblue;
+      font-size: 1.0em;
+      border: 0;
+      cursor: pointer;
+      margin:1em;
+      margin-left: 9%;
+      }*/
+
+
+      
+.myPopup
+{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #0c0a0a;
+  z-index: 9;
+  width: 50%;
+ 
+  height: 50%;
+  
+}
+
+.btn-close{
+  color: #fff;
+  text-align: center;
+}
